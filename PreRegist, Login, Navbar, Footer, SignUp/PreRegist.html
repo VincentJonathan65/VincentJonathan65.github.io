@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Laforant</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="navbarfooter.css">
+    <script src="PreRegist.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="head-wrap">
+            <div class="droplogo">
+                <img src="Assets/dropdownlogo.png" alt="">
+                <div class="drop">
+                    <a href="login.html">
+                        <p>Log In</p>
+                    </a>
+                    <a href="../Home/index.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="../Agents/index.html">
+                        <p>Agents</p>
+                    </a>
+                    <a href="../Maps/index.html">
+                        <p>Maps</p>
+                    </a>
+                    <a href="../System_Requirement/index.html">
+                        <p>System Requirements</p>
+                    </a>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="../Home/index.html">
+                    <img src="../Logo/logo full fix no bg.png" alt="logo">
+                </a>
+            </div>
+            <div class="Pre-reg">
+                <a href="PreRegist.html">
+                    <h3>Pre-Register</h3>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+       <form>
+           <div class="main-wrap">
+               <div class="main-cont">
+                    <div class="jr">
+                        <h1>Your Journey Starts Here</h1>
+                    </div>
+                    <div class="act">
+                        <input onchange="validatemail()" id="mail1" type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="nation">
+                        <select id="country" onchange="validatecountry()">
+                            <option value="none" selected  hidden>Select an option</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="East Timor">East Timor</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Laos">Laos</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="Myanmar">Myanmar</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Vietnam">Vietnam</option>
+                        </select>                         
+                    </div>
+                    <div class="dob">
+                        <h3>Date Of Birth</h3>
+                        <input type="date" id="birth" onchange="validatedob()">
+                    </div>
+                    <div class="us-id">
+                        <input onchange="validateid()" id="userid" type="text" placeholder="Create New Username">
+                    </div>
+                    <div class="act1">
+                        <input onchange="validatepassword()" id="pas1" type="password" placeholder="Create New Password">
+                    </div>
+                    <div class="re">
+                        <input onchange="revalpassword()" id="pas2" type="password" placeholder="Re-Enter Your Password">
+                    </div>
+                    <div class="check">
+                        <input id="chk1" type="checkbox">
+                        <div>
+                            <h3>I Agree To The Terms and Condition</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <input onclick="validateform()" class="btn" type="submit" value="Create Account">
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </form>
+    </main>
+    <footer>
+        <div class="foot-wrap">
+            <div class="foot-cont">
+                <div class="foot1">
+                    <a href="http://www.riotgames.com/">
+                        <h3>Contact Us</h3>
+                    </a>
+                    <a href="https://support-valorant.riotgames.com/hc/id/requests/new">
+                        <h3>Customer Feedback</h3>
+                    </a>
+                    <a href="https://support-valorant.riotgames.com/hc/en-us">
+                        <h3>FAQ / Help</h3>
+                    </a>
+                </div>
+                <div class="foot2">
+                    <a href="https://www.riotgames.com/en/privacy-notice" class="priv">
+                        <h3>Privacy Policy</h3>
+                    </a>
+                    <a href="https://www.riotgames.com/en/terms-of-service" class="term">
+                        <h3>Terms of Service</h3>
+                    </a>
+                    <div class="foot-img">
+                        <div class="utube">
+                            <a href="https:youtube.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/yt.png" alt="utube">
+                            </a>
+                        </div>
+                        <div class="fb">
+                            <a href="https:facebook.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="ig">
+                            <a href="https:instagram.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/instagram.png" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="twit">
+                            <a href="https:twitter.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/twitter.png" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Assets/BreezeWall1.jpg);
+}
+main{
+    margin-bottom: 15%;
+}
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    padding: 70px 50px 50px;
+    margin-top: 15%;
+    color: rgb(22, 22, 22);
+}
+.btndont{
+    display: flex;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+}
+.sign{
+    margin-left: 12px;
+}
+#user{
+    height: 25px;
+    min-width: 300px;
+}
+.userid{
+    margin-bottom: 12px;
+}
+#box{
+    margin-top: 3px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.btnlog{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btnwrap{
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: wheat;
+    font-size: 20px;
+    padding: 8px 50px;
+    border: 0;
+}
+.check div{
+    margin-left: 12px;
+}
+@media screen and (max-width: 800px){
+    .main-cont{
+        margin-top: 33%;
+        padding: 50px 50px 50px;
+    }
+    .acc{
+        font-size: 18px;
+    }
+    .check{
+        font-size: 19px;
+    }
+    #box{
+        margin-top: 6px;
+    }
+    .btnwrap{
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav, footer{
+    width: 100%;
+}
+.head-wrap{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+.logo{
+    /* background-color: aqua; */
+    height: 65px;
+}
+.logo img{
+    /* background-color: antiquewhite; */
+    height: 100%;
+}
+.droplogo img{
+    height: 65px;
+}
+.droplogo{
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+.drop{
+    background-color: red;
+    position: absolute;
+    min-width: 141px;
+    display: none;
+}
+.drop p{
+    padding: 8px 12px;
+}
+.drop p:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.droplogo:hover .drop{
+    display: block;
+    z-index: 2;
+}
+.drop a{
+    text-decoration: none;
+    color: inherit;
+}
+.Pre-reg {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 35px;
+    background-color: white;
+    color: black;
+    max-height: 25px;
+    padding: 0.25% 1% 0.25% 1%;
+    border-radius: 10px;
+}
+.Pre-reg a{
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    margin-top: 0;
+}
+.foot-wrap{
+    color: rgb(255, 255, 255);
+    background-color: #111111;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.foot1, .foot2{
+    display: flex;
+    justify-content: center;
+}
+.foot1 h3{
+    padding-right: 15px;
+}
+.foot1{
+    margin-bottom: 8px;
+}
+.priv{
+    margin-left: 70px;
+}
+.term{
+    padding-left: 12px;
+}
+.foot-img img{
+    height: 45px;
+}
+.foot-img{
+    display: flex;
+    margin-left: 20px;
+}
+.fb,.ig{
+    margin-left: 5px;
+}
+
+@media screen and (max-width : 800px){
+    .droplogo:hover .drop{
+        display: flex;
+        min-width: 400px;
+    }
+    .foot-img img{
+        height: 38px;
+    }
+    .priv{
+        margin-left: 40px;
+    }
+}

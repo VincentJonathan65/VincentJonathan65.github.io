@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Laforant</title>
+    <link rel="stylesheet" href="navbarfooter.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="head-wrap">
+            <div class="droplogo">
+                <img src="Assets/dropdownlogo.png" alt="">
+                <div class="drop">
+                    <a href="login.html">
+                        <p>Log In</p>
+                    </a>
+                    <a href="../Home/index.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="../Agents/index.html">
+                        <p>Agents</p>
+                    </a>
+                    <a href="../Maps/index.html">
+                        <p>Maps</p>
+                    </a>
+                    <a href="../System_Requirement/index.html">
+                        <p>System Requirements</p>
+                    </a>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="../Home/index.html">
+                    <img src="../Logo/logo full fix no bg.png" alt="logo">
+                </a>
+            </div>
+            <div class="Pre-reg">
+                <a href="PreRegist.html">
+                    <h3>Pre-Register</h3>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <form >
+            <div class="bungkus2">
+                <div class="bungkus">
+                    <div class="main-cont">
+                        <div class="tex1">
+                            <h1>Sign in</h1>
+                        </div>
+                        <div class="kanan">
+                            <div class="k1">
+                                <input onblur="validateuserid()" id="userid" type="text" placeholder="YourUserID">
+                            </div>
+                            <div class="k2">
+                                <input onblur="validatepassword()" id="userpassword" type="password" placeholder="YourPassword">
+                            </div>
+                        </div>
+                        <div class="k3">
+                            <div class="chk1">
+                                <input type="checkbox">
+                            </div>
+                            <h3 id="remember">Remember Me</h3>
+                        </div>
+                        <div class="btnlog">
+                            <div>
+                                <input onclick="validsubmit()" class="btnwrap" type="submit" value="Sign in">
+                            </div>
+                        </div>
+                        <div class="btndont">
+                            <div class="btncont">
+                                <div class="wrap1">
+                                    <h3>Don't have an account?</h3>
+                                </div>
+                                <a href="PreRegist.html">
+                                    <h3>Pre-Regist</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="foot-wrap">
+            <div class="foot-cont">
+                <div class="foot1">
+                    <a href="http://www.riotgames.com/">
+                        <h3>Contact Us</h3>
+                    </a>
+                    <a href="https://support-valorant.riotgames.com/hc/id/requests/new">
+                        <h3>Customer Feedback</h3>
+                    </a>
+                    <a href="https://support-valorant.riotgames.com/hc/en-us">
+                        <h3>FAQ / Help</h3>
+                    </a>
+                </div>
+                <div class="foot2">
+                    <a href="https://www.riotgames.com/en/privacy-notice" class="priv">
+                        <h3>Privacy Policy</h3>
+                    </a>
+                    <a href="https://www.riotgames.com/en/terms-of-service" class="term">
+                        <h3>Terms of Service</h3>
+                    </a>
+                    <div class="foot-img">
+                        <div class="utube">
+                            <a href="https:youtube.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/yt.png" alt="utube">
+                            </a>
+                        </div>
+                        <div class="fb">
+                            <a href="https:facebook.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="ig">
+                            <a href="https:instagram.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/instagram.png" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="twit">
+                            <a href="https:twitter.com">
+                                <img src="../PreRegist, Login, Navbar, Footer, SignUp/Assets/twitter.png" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

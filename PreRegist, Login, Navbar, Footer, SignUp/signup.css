@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Assets/Breeze.png);
+}
+main{
+    margin-bottom: 15%;
+}
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main-cont{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px 50px;
+    margin-top: 15%;
+    color: rgb(22, 22, 22);
+}
+.jr{
+    margin-bottom: 25px;
+}
+.dob{
+    display: flex;
+    justify-content: center;
+}
+.dob h3{
+    margin-right: 50px;
+}
+.act,.nation,.dob, .act1, .us-id, .re, .check{
+    margin-bottom: 15px;
+}
+#mail1,#userid , #pas1, #pas2{
+    height: 25px;
+    min-width: 300px;
+}
+#country{
+    height: 25px;
+    min-width: 305px;
+}
+.check{
+    display: flex;
+}
+#chk1{
+    margin-top: 5px;
+}
+.check div{
+    margin-left: 13px;
+}
+.btn{
+    display: flex;
+    background-color: wheat;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 50px;
+    border: 0;
+}
+@media screen and (max-width: 800px){
+    .main-cont{
+        margin-top: 35%;
+        padding: 50px 70px 70px;
+    }
+    .dob h3{
+        display: flex;
+        justify-content: center;
+        padding-right: 50px;
+    }
+    .check div{
+        font-size: 19px;
+    }
+    #chk1{
+        margin-top: 6px;
+    }
+    #country{
+        height: 25px;
+        min-width: 355px;
+    }
+    #mail1 ,#userid , #pas1, #pas2{
+        height: 25px;
+        min-width: 350px;
+    }
+    .btn{
+        font-size: 25px;
+    }
+}

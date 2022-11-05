@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Assets/valorant-15.jpg);
+}
+main{
+    margin-bottom: 15%;
+}
+.bungkus2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bungkus{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 50px 50px;
+    background-color: white;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 22, 22);
+}
+.main-cont h1{
+    text-align: center;
+}
+#userid, #userpassword{
+    height: 25px;
+    min-width: 300px;
+}
+.tex1{
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+.k1{
+    padding-bottom: 10px;
+}
+.k3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.chk1{
+    padding-top: 3px;
+    margin-right: 8px;
+}
+.btnlog{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btnwrap{
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: wheat;
+    font-size: 20px;
+    padding: 8px 50px;
+    border: 0;
+}
+.btndont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.btndont .btncont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btndont .wrap1{
+    margin-right: 7px;
+}
+@media screen and (max-width : 800px){
+    .bungkus{
+        margin-top: 38%;
+        padding: 100px 70px 70px;
+    }
+    .main-cont h1{
+        font-size: 38px;
+    }
+    #remember{
+        font-size: 23px;
+    }
+    .chk1{
+        margin-top: 3px;
+    }
+    .btnwrap{
+        padding: 12px 60px;
+        font-size: 25px;
+    }
+    .wrap1{
+        font-size: 20px;
+    }
+    .btndont a{
+        font-size: 18px;
+    }
+    .btndont .wrap1{
+        margin-right: 12px;
+    }
+}

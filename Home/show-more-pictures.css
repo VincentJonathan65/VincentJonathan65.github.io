@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.map-name{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.map-info{
+    /* background-color: aquamarine; */
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.map-image{
+    width: 60%;
+}
+
+.images{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /*Belum dibuat dalam persentase*/
+    padding-bottom: 5%;
+}
+
+.picture-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    gap: 3%;
+}
+
+.back-button{
+    background-color: rgba(27, 27, 27, 0.250);
+    color: rgba(0, 0, 0, 0.75);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    padding-right: 0.8%;
+    padding-top: 0.4%;
+    padding-bottom: 0.8%;
+    position: sticky;
+    top: 0;
+}
+
+.back-button:hover{
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+}
+
+.back-symbol, .back-text{
+    text-align: center;
+}
+
+.button-hyperlink{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .map-name{
+        /* background-color: antiquewhite; */
+        font-size: x-large;
+    }
+    
+    .images{
+        /* background-color: blue; */
+        gap: 15px; /*Belum dibuat dalam persentase*/
+    }
+    
+    .picture-flex-row{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .back-button{
+        font-size: medium;
+    }
+}
